@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página bootstrap</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./estilo.css">
+    <style>
+
+    </style>
+</head>
+
+<body id="inicio">
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <h1>Cellphone</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aparelho">Aparelhos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="meuCarousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="3000" class="carousel-item active">
+                <img class="d-block w-100" src="./img/cellphone.jpg">
+                <div class="carousel-caption">
+                    <h2>Conecte-se com o mundo</h2>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100" src="./img/mediasociais.jpg">
+                <div class="carousel-caption">
+                    <h2>Baixe milhares de aplicativos</h2>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100" src="./img/womanphone.jpg">
+                <div class="carousel-caption">
+                    <h2>Aproveite os bons momentos</h2>
+                </div>
+            </div>
+        </div>
+        <button data-bs-target="#meuCarousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#meuCarousel" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" class="active" data-bs-target="#meuCarousel" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#meuCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#meuCarousel" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+</section>
+<section id="inicio"><h3><i>Cellphones conectando pessoas. Só a maior empresa de smartphones,<br> faz os melhores aparelhos para facilitar sua vida.</h3></p></section>
+        <section id="aparelho">
+            <h2>Aparelhos</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h3>Smartphone A1</h3>
+                            </div>
+                            <img src="./img/smartphone.png">
+                            <div class="card-body">
+                                <h4 class="card-title">Custo x benefício</h4>
+                                <p class="card-text">Aparelho básico para quem não quer perder
+                                    nada.<br><br>Armazenamento: 64GB<br>
+                                    Câmera: 20 Megapixel<br><br><br></p>
+                                <div class="card-footer">
+                                    <h4>Preço: R$ 1.250</h4>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary">Adcione ao Carrinho</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h3>Smartphone A2</h3>
+                            </div>
+                            <img src="./img/smartphone.png">
+                            <div class="card-body">
+                                <h4 class="card-title">Intermediário</h4>
+                                <p class="card-text">Aparelho intermediário para seu dia dia com longa
+                                    bateria.<br><br>Armazenamento: 64GB<br>
+                                    Câmera: 30 Megapixel<br>Biometria<br><br></p>
+                                <div class="card-footer">
+                                    <h4>Preço: R$ 1.450</h4>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary">Adcione ao Carrinho</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h3>Smartphone A3</h3>
+                            </div>
+                            <img src="./img/smartphone.png">
+                            <div class="card-body">
+                                <h4 class="card-title">Topzera</h4>
+                                <p class="card-text">Aparelho top de linha para jogar e navegar com longa
+                                    bateria.<br><br>Armazenamento: 128GB<br>
+                                    Câmera: 50 Megapixel<br>Biometria<br><br></p>
+                                <div class="card-footer">
+                                    <h4>Preço: R$ 1.850</h4>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary">Adcione ao Carrinho</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <footer>
+                <h6>&copy; Todos os direitos reservados - 2022</h6>
+                <address>Avenida: Anonimato - Centro s/n - Rio de Janeiro</address>
+                <div class="col"><input type="email" class="form-control" placeholder="Receba novidades no seu email">
+                </div>
+            </footer>
+        </section>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
